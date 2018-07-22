@@ -20,12 +20,8 @@ class BooksApp extends React.Component {
     return (
       <div className="app">
         <Route exact path="/search" render={() => (
-            <div className="search-books">
               <BooksSearch/>
-              <div className="search-books-results">
-                <ol className="books-grid"></ol>
-              </div>
-            </div>)
+            )
           }/>
           <Route exact path="/" render={() => (
             <div className="list-books">
