@@ -8,7 +8,7 @@ class Book extends Component {
         height: 192,
         backgroundImage: this.props.book.imageLinks ?
           `url(${this.props.book.imageLinks.thumbnail})` :
-          `url(${"https://via.placeholder.com/128x192"})`
+          `url(${"https://dummyimage.com/128x192/fff/000000.png&text=No+Preview"})`
     }
 
     return (
